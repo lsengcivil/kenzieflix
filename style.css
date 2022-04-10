@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+
+body{
+background-color: black;
+display: flex;
+justify-content: center;
+}
+
+.interface{
+margin-top: 30px;
+}
+
+.interface .logo{
+display: flex;
+justify-content: center;
+}
+
+.interface .interacao{
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+font-size: 32px;
+margin-top: 50px;
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 600;
+}
+
+.interface .usuarios{
+margin-top: 65px;
+}
+
+.interface .usuarios .icones{
+display: flex;
+justify-content: space-around;
+width: 700px;
+}
+
+figure{
+overflow: hidden;
+border: solid transparent;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+.interface .usuarios .icones .usuario .perfil{
+width: 160px;
+height: 160px;
+border-radius: 8px;
+}
+
+.interface .usuarios .icones .usuario .perfil:hover{
+transform: scale(1.1);            
+}
+
+.add{
+overflow: hidden;
+border-radius: 8px;
+}
+
+.add:hover{
+overflow: hidden;    
+}
+
+.interface .usuarios .icones .usuario .addPerfil{
+width: 160px;
+height: 160px;
+opacity: 0.3;
+}
+
+.interface .usuarios .icones .usuario .addPerfil:hover{
+opacity: 1;
+}
+
+.interface .usuarios .icones .usuario .nome{
+margin-top: 15px;
+display: flex;
+justify-content: center;
+color: #9C9C9C;
+font-size: 14px;
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 600;
+}    
+
+.interface .gerenciar{
+display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+
+.interface .gerenciar .botao{
+width: 206px;
+height: 50px;
+border-radius: 8px;
+border: solid #9C9C9C 1px;
+background-color: transparent;
+color: #9C9C9C;
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 400;
+}
+
+.interface .gerenciar .botao:hover{
+background-color: #FFFFFF;
+color: #000000;
+}
